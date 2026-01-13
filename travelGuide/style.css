@@ -1,0 +1,176 @@
+/* GLOBAL -------------------------------------------------------------- */
+
+body {
+    font-family: 'Abel', sans-serif;
+    background: #fff7f0; /* warm cream */
+    margin: 0;
+    padding: 30px 15px;
+    color: #4a3f35;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+    color: #3d2f26;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    color: #3d2f26;
+}
+
+p {
+    margin: 4px 0;
+}
+
+/* SECTIONS ------------------------------------------------------------- */
+
+.card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 25px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* INPUTS & BUTTONS ------------------------------------------------------ */
+
+input, select {
+    width: 80%;
+    padding: 12px 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #d6c8be;
+    margin-bottom: 12px;
+    background: #fbf7f3;
+    color: #3d2f26;
+}
+
+button {
+    background: #d28a6e; /* warm clay */
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+    font-family: 'Abel', sans-serif;
+}
+
+button:hover {
+    background: #b06f59;
+}
+
+/* DESTINATION CARD ------------------------------------------------------ */
+
+.dest-card {
+    width: 570px;
+    display: flex;
+    gap: 15px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+}
+
+.dest-card.visited {
+    background: #BFA6A0; /* gold */
+    border: 2px solid #d4af37;
+}
+
+.dest-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+/* CARD CONTENT */
+
+.dest-content {
+    flex: 1;
+}
+
+.dest-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin: 0 0 8px 0;
+}
+
+/* NOTES AREA ------------------------------------------------------------ */
+
+.notes {
+    width: 95%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.1rem;
+    background: #fffdf8;
+    border: 1px solid #e6d7c8;
+    border-radius: 10px;
+    padding: 8px;
+    height: 70px;
+    resize: none;
+    margin-top: 4px;
+}
+
+/* SPOTIFY EMBED --------------------------------------------------------- */
+
+.spotify-player {
+    margin: 8px 0;
+    border-radius: 12px;
+}
+
+.spotify-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #e0d5ca;
+    background-color: #fff1e6;
+    font-size: 15px;
+    font-family: 'Abel', sans-serif !important;
+    color: #4a3f35;
+}
+
+/* REMOVE BUTTON --------------------------------------------------------- */
+
+.remove-btn {
+    background: #c04a4a;
+}
+
+.remove-btn:hover {
+    background: #a33b3b;
+}
+
+
+/* CUSTOM PHOTO UPLOAD BUTTON ----------------------------------------- */
+
+.upload-btn {
+    display: inline-block;
+    background: #d28a6e; /* your warm clay */
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-family: 'Abel', sans-serif;
+    transition: 0.25s;
+    margin-bottom: 8px;
+    width: fit-content;
+}
+
+.upload-btn:hover {
+    background: #b06f59;
+}
+
+/* hide the ugly file input */
+.upload-btn input {
+    display: none;
+}
+
